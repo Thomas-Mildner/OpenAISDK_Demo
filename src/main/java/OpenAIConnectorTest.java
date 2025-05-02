@@ -1,13 +1,12 @@
 import com.openai.client.OpenAIClient;
 import com.openai.client.okhttp.OpenAIOkHttpClient;
-import com.openai.models.ChatModel;
 import com.openai.models.chat.completions.ChatCompletionCreateParams;
 
 public class OpenAIConnectorTest {
 
     public static void main(String[] args) {
         // Replace with your actual API key
-        String apiKey = "e994d0c2-ff72-4f76-afda-a00510cfda5e";
+        String apiKey = "YOUR_API_KEY";
 
         String customServerUrl = "https://inference.ai.cnds.io/v1";
 
